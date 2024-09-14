@@ -13,11 +13,11 @@ body {
 
 .heading-with-img{
     text-align:center;
-    background-color:rgb(137, 172, 172);
-    background-image: url(s2.jpg); 
-    background-size: cover; 
-    background-position: center; 
-    color: rgb(223, 71, 44); 
+    background-color:rgb(102, 237, 237);
+    background-image: url(s3.jpg); 
+    background-size: contain; 
+    background-position: contain; 
+    color: whitesmoke; 
     text-align: center; 
     padding: 50px 0; 
     margin: 0; 
@@ -39,7 +39,7 @@ body {
     overflow:hidden;
 }
 .navbar a{
-    color:white;
+    color:rgb(243, 234, 234);
     text-decoration: none;
     font-size:large;
     padding: 15px 20px;
@@ -47,7 +47,7 @@ body {
     text-align: center;
 }
 .navbar a:hover{
-    background-color:hsl(0, 29%, 86%);
+    background-color:hsl(0, 91%, 91%);
 }
 .navbar li {
     float: left;
@@ -75,7 +75,7 @@ section {
       }
 .food-card {
         flex: 0 1 calc(25% - 2rem);
-        background-color:#d6531a;
+        background-color:rgba(190, 72, 13, 0.829);
         border-radius: 10px;
         overflow: hidden;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
@@ -251,6 +251,3 @@ footer {
   }
 
 
-
-
- 
